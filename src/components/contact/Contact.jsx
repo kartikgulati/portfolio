@@ -43,7 +43,7 @@ const Contact = () => {
               <i className="bx bx-phone contact_card-icon"></i>
 
               <h3 className="contact_card-title">Phone</h3>
-              <span className="contact_card-data">519 694 8284</span>
+              <span className="contact_card-data">519 123 4567</span>
 
               <a href=" " className="contact_button">
                 Write Me{" "}
