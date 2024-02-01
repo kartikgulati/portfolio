@@ -2,7 +2,19 @@ import React, { useState } from 'react'
 import "./header.css"
 
 export const Header = () => {
+    // auto scroll header and change color
+    window.addEventListener("scroll", function(){
+        const header = this.document.querySelector(".header");
+        if (this.scrollY >= 80) header.classList.add("scroll_header");
+
+        else header.classList.remove("scroll_header")
+    });
+
+// toggle menu
     const[Toggle, showMenu] = useState(false);
+    const[activeNav, setActiveNav] = useState("#home");
+
+
   return (
     <header className="header">
         <nav className="nav container">
@@ -11,7 +23,7 @@ export const Header = () => {
                 <ul className="nav_list grid">
 
                     <li className="nav_item">
-                        <a href="#home" className="nav_link activate_link">
+                        <a href="#home" onClick={()=> setActiveNav('#home')} className={activeNav === "#home" ? "nav_link active_link" : "nav_link"}>
                             <i className="uil uil-estate nav_icon"></i>Home
                         </a>
                     </li>

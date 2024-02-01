@@ -19,3 +19,8 @@
 .scrollup:hover{
     color: var(--title-color-dark);
 }
+
+.show_scroll{
+    bottom: 3rem;
+
+}
