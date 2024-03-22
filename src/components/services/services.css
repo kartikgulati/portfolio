@@ -12,6 +12,10 @@
     border-radius: 10px;
 } 
 
+.services_content:hover{
+    background-color: rgb(243, 240, 240);
+}
+
 .services_icon{
     display: block;
     font-size: 2rem;

@@ -22,7 +22,7 @@ const [toggleState, setToggelState] = useState(0);
             <div className="services_content">
                 <div>
                     <i className="uil uil-web-grid services_icon"></i>
-                    <h3 className="services_title">test 1<br></br>test</h3>
+                    <h3 className="services_title">Portfolio<br></br>Design</h3>
                 </div>
 
                 <span className="services_button" onClick={()=>toggleTab(1)}>view more<i className="uil uil-arrow-right services_button-icon"></i></span>
@@ -68,7 +68,7 @@ const [toggleState, setToggelState] = useState(0);
             <div className="services_content">
                 <div>
                     <i className="uil uil-web-grid services_icon"></i>
-                    <h3 className="services_title">test 2<br></br>test</h3>
+                    <h3 className="services_title">Website<br></br>Development/Design</h3>
                 </div>
 
                 <span className="services_button" onClick={()=>toggleTab(2)}>view more<i className="uil uil-arrow-right services_button-icon"></i></span>
@@ -113,7 +113,7 @@ const [toggleState, setToggelState] = useState(0);
             <div className="services_content">
                 <div>
                     <i className="uil uil-web-grid services_icon"></i>
-                    <h3 className="services_title">test 3<br></br>test</h3>
+                    <h3 className="services_title">UI/UX | Graphics<br></br>design</h3>
                 </div>
 
                 <span className="services_button" onClick={()=>toggleTab(3)}>view more<i className="uil uil-arrow-right services_button-icon"></i></span>
