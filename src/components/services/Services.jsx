@@ -15,7 +15,7 @@ const [toggleState, setToggelState] = useState(0);
 
   return (
     <section className="services section" id='services'>
-        <h2 className="section_title">Services</h2>
+        <h2 className="services_section_title">Services</h2>
       <span className="section_subtitle">Services I Offer</span>
 
         <div className="services_container container grid">

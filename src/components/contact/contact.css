@@ -12,6 +12,11 @@ padding-bottom: 3rem;
     margin-bottom: var(--mb-1-5);
 }
 
+.contact_section_title{
+    font-weight: bold;
+    text-align: center;
+}
+
 .contact_info{
     display: grid;
     row-gap: 1rem;

@@ -3,7 +3,7 @@ import React from 'react'
 const Frontend = () => {
   return (
     <div className="skills_content ">
-    <h3 className="skills_title"> Frontend Developer</h3>
+    <h3 className="skills_title"> Frontend Skills</h3>
 
     <div className="skills_box">
        
@@ -22,7 +22,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">CSS</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -32,7 +32,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">JavaScript</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -41,7 +41,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">ReactJS</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -50,7 +50,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">Tailwind</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -62,7 +62,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">JQuery</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -72,7 +72,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">NextJS</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -82,26 +82,26 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">WordPress</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
 
 
                 <div className="skills_data">
-                <i className="bx bx-badge-check "></i>
+                <i className=" "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <h3 className="skills_name">&#8203;</h3>
+                    <span className="skills_leve">&#8203;</span>
                 </div>
                 </div>
 
 
                 <div className="skills_data">
-                <i className="bx bx-badge-check "></i>
+                <i className=" "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <h3 className="skills_name">&#8203;</h3>
+                    <span className="skills_leve">&#8203;</span>
                 </div>
                 </div>
 

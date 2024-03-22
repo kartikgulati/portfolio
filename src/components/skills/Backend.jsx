@@ -3,7 +3,7 @@ import React from 'react'
 const Backend = () => {
   return (
     <div className="skills_content ">
-    <h3 className="skills_title"> Backend Developer</h3>
+    <h3 className="skills_title"> Backend skills</h3>
 
     <div className="skills_box">
        
@@ -12,7 +12,7 @@ const Backend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">NodeJS</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -22,7 +22,7 @@ const Backend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">ExpressJS</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -32,26 +32,26 @@ const Backend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">OOP PHP</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
 
 
                 <div className="skills_data">
-                <i className="bx bx-badge-check "></i>
+                <i className=" "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <h3 className="skills_name">&#8203;</h3>
+                    <span className="skills_leve">&#8203;</span>
                 </div>
                 </div>
 
 
                 <div className="skills_data">
-                <i className="bx bx-badge-check "></i>
+                <i className=" "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <h3 className="skills_name">&#8203;</h3>
+                    <span className="skills_leve">&#8203;</span>
                 </div>
                 </div>
 
@@ -62,7 +62,7 @@ const Backend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">MySQL</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -72,7 +72,7 @@ const Backend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">MongoDB</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -82,26 +82,26 @@ const Backend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">Firebase</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
 
 
                 <div className="skills_data">
-                <i className="bx bx-badge-check "></i>
+                <i className=""></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <h3 className="skills_name">&#8203;</h3>
+                    <span className="skills_leve">&#8203;</span>
                 </div>
                 </div>
 
 
                 <div className="skills_data">
-                <i className="bx bx-badge-check "></i>
+                <i className=" "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <h3 className="skills_name">&#8203;</h3>
+                    <span className="skills_leve">&#8203;</span>
                 </div>
                 </div>
 

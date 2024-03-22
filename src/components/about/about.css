@@ -39,12 +39,14 @@
     font-size: var(--small-font-size);
 }
 .about_description{
+    text-align: justify;
     padding: 0 0.4rem 0 0;
     margin-bottom: var(--mb-2-5);
 }
 .about_section_title{
-    font-size: var(--big-font-size);
-    font-weight: var(--font-small);
+    /* font-size: var(--small-font-size); */
+    /* font-weight: var(--font-big); */
+    font-weight: bold;
     text-align: center;
 
 }

@@ -26,6 +26,11 @@
 
 }
 
+.services_section_title{
+    font-weight: bold;
+    text-align: center;
+}
+
 .services_button{
     color: var(--title-color);
     font-size: var(--small-font-size);

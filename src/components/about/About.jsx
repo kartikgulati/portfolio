@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import AboutImg from "../../assets/kartik2.jpeg";
+import CV from "../../assets/kartikgulati_resume.pdf";
 import Info from './Info';
 
 const About = () => {
@@ -15,7 +15,9 @@ const About = () => {
 
         <div className="about_data">
           <Info/>
-          <p className="about_description"> this the section for the profile information</p>
+          <p className="about_description"> Front-End Developer with the ability to learn and collaborate with a rapidly changing technology environment while staying focused and achieving 
+high-quality results under strict deadlines. I am eager to obtain a challenging position at a prestigious company that will expand my learning 
+and build upon my developer skills.</p>
 
           <a download="" href={CV} className="button button--flex">
             Download resume

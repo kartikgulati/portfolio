@@ -17,6 +17,10 @@
     text-align: center;
     margin-bottom: var(--mb-1-5);
 }
+.skills_section_title{
+    font-weight: bold;
+    text-align: center;
+}
 
 .skills_box{
     display: flex;

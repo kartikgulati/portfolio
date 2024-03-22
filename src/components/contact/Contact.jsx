@@ -17,7 +17,7 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section_title">Contact Me</h2>
+      <h2 className="contact_section_title">Contact Me</h2>
       <span className="section_subtitle">For Formal Corresponce </span>
 
       <div className="contact_container container grid">
