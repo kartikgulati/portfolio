@@ -8,8 +8,10 @@
 
 }
 
+
 .nav{
     height: calc(var(--header-height) + 1.5rem);
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,9 +60,12 @@
 
     .nav{
         height: var(--header-height);
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .nav_menu{
+        
         position: fixed;
         bottom: -100%;
         left: 0; 
@@ -123,6 +128,8 @@
     .nav_menu{
         padding: 2rem 0.25rem 4rem;
     }
+
+
 
     .nav_list{
         column-gap: 0;

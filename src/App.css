@@ -87,6 +87,8 @@ input,textarea{
 
 body{
   background-color: var(--body-color);
+  margin-right: 10px;
+  margin-left: 10px;
   color: var(--text-color);
 }
 

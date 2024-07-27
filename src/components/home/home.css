@@ -272,13 +272,14 @@
 
 
 
-    /* For small devices */
+   For small devices
     @media screen and (max-width: 350px){
 
         .home_img{
             
             width: 180px;
-            height: 180px;}
+            height: 180px;
+        }
         .home__hand{
             width: 22px;
             height: 22px;
@@ -288,3 +289,5 @@
         } */
     
     }
+
+    
