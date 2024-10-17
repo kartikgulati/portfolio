@@ -87,8 +87,8 @@ input,textarea{
 
 body{
   background-color: var(--body-color);
-  /* margin-right: 10px;
-  margin-left: 1px; */
+  margin-right: 8px;
+  margin-left: 10px;
   color: var(--text-color);
 }
 
@@ -206,8 +206,7 @@ color: var(--title-color);
       margin-bottom:var(--mb-3) ;
     } */
      body{
-      margin-left: 2%;
-      margin-right: 0.5%;
+      
 
      }
 
