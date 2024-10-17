@@ -87,8 +87,8 @@ input,textarea{
 
 body{
   background-color: var(--body-color);
-  margin-right: 10px;
-  margin-left: 10px;
+  /* margin-right: 10px;
+  margin-left: 1px; */
   color: var(--text-color);
 }
 
@@ -205,9 +205,16 @@ color: var(--title-color);
     /* .section_subtitle{
       margin-bottom:var(--mb-3) ;
     } */
+     body{
+      margin-left: 2%;
+      margin-right: 0.5%;
+
+     }
 
     .section{
       padding: 2rem 0 4rem;
+      
+      
     }
     
 

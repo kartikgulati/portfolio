@@ -272,7 +272,7 @@
 
 
 
-   For small devices
+   /* For small devices */
     @media screen and (max-width: 350px){
 
         .home_img{
