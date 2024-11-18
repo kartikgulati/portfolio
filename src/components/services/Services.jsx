@@ -12,14 +12,15 @@ const [toggleState, setToggelState] = useState(0);
 
 
 
-
   return (
     <section className="services section" id='services'>
         <h2 className="services_section_title">Services</h2>
       <span className="section_subtitle">Services I Offer</span>
 
-        <div className="services_container container grid">
-            <div className="services_content">
+        <div className="services_container container grid" >
+
+            {/* 1st services */}
+            <div className="services_content " >
                 <div>
                     <i className="uil uil-web-grid services_icon"></i>
                     <h3 className="services_title">Portfolio<br></br>Design</h3>

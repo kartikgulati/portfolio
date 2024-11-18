@@ -18,8 +18,18 @@ const Footer = () => {
             <a href="#portfolio" className="footer_link">Projects</a>
           </li>
 
+          
+
           <li  className="footer_link">
-            <a href="#testemonials" className="footer_link">Testimonial</a>
+            <a href="#services" className="footer_link">Services</a>
+          </li>
+
+          <li  className="footer_link">
+            <a href="#projects" className="footer_link">Projects</a>
+          </li>
+
+          <li  className="footer_link">
+            <a href="#contact" className="footer_link">Contact</a>
           </li>
         </ul>
   {/* social icon */}

@@ -30,7 +30,7 @@ const Contact = () => {
               <i className="bx bx-mail-send contact_card-icon"></i>
 
               <h3 className="contact_card-title">Emaile</h3>
-              <span className="contact_card-data">KG@gmail.com</span>
+              <span className="contact_card-data">kartikgulati19@gmail.com</span>
 
               <a href=" " className="contact_button">
                 Write Me{" "}
@@ -43,9 +43,9 @@ const Contact = () => {
               <i className="bx bx-phone contact_card-icon"></i>
 
               <h3 className="contact_card-title">Phone</h3>
-              <span className="contact_card-data">519 123 4567</span>
+              <span className="contact_card-data"><a href="tel:519-694-8284" style={{color:"#757575"}}>+1 (519) 694 8284</a></span>
 
-              <a href=" " className="contact_button">
+              <a href="tel:519-694-8284" className="contact_button">
                 Write Me{" "}
                 <i className="uil uil-arrow-right contact_button-icon"></i>
               </a>
@@ -55,10 +55,10 @@ const Contact = () => {
             <div className="contact_card">
               <i className="bx bx-message contact_card-icon"></i>
 
-              <h3 className="contact_card-title">Twitter(X)</h3>
-              <span className="contact_card-data">kartikgulati14</span>
+              <h3 className="contact_card-title">LinkedIN</h3>
+              <span className="contact_card-data"><a href="https://www.linkedin.com/in/kartik-gulati-a5636b17a/" style={{color:"#757575"}}>kartik Gulati</a></span>
 
-              <a href=" " className="contact_button">
+              <a href="https://www.linkedin.com/in/kartik-gulati-a5636b17a/" className="contact_button">
                 Write Me{" "}
                 <i className="uil uil-arrow-right contact_button-icon"></i>
               </a>
@@ -76,7 +76,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 className="contact_form-input"
-                placeholder="enter your name"
+                placeholder="Enter your name"
               />
             </div>
 
@@ -86,7 +86,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 className="contact_form-input"
-                placeholder="enter your email"
+                placeholder="Enter your email"
               />
             </div>
 
@@ -97,7 +97,7 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 className="contact_form-input"
-                placeholder="enter your project"
+                placeholder="Write me anything: Project request, job opportunity, or just to say hi"
               ></textarea>
             </div>
 

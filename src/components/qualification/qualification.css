@@ -122,3 +122,9 @@
 
 }
 
+/*************  ✨ Codeium Command ⭐  *************/
+.qualification_button:hover,
+.qualification_active .qualification_button{
+    border-bottom: 0.125rem solid var(--title-color);
+}
+/******  6f3013f6-7223-4e86-a0b1-902c28b5f8da  *******/

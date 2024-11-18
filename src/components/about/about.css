@@ -48,6 +48,7 @@
     /* font-weight: var(--font-big); */
     font-weight: bold;
     text-align: center;
+    
 
 }
 
@@ -105,6 +106,7 @@
     .about_section_title{
        
         text-align: center;
+        font-size: var(--small-font-size);
     
     }
 

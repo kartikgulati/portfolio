@@ -37,15 +37,16 @@
 .home_subtitle{
     position: relative;
     font-size: var(--h3-font-size);
-    padding-left :5.4rem;
+    padding-left : 2.5rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
 }
 
+/* line in front of the subtitle */
 .home_subtitle::before{
     content: '';
     position: absolute;
-    width: 70px;
+    width: 30px;
     height: 1px;
     background-color: var(--text-color);
     left: 0;
@@ -146,12 +147,12 @@
     }
 
     .home_subtitle{
-        padding-left: 3.75rem;
+        padding-left: 2rem;
         margin-bottom: var(--mb-1);
     }
 
     .home_subtitle::before{
-        width: 42px;
+        width: 25px;
         top: 0.8rem;
     }
 

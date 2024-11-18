@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Frontend = () => {
+function DesignAndOthers() {
   return (
     <div className="skills_content ">
-    <h3 className="skills_title"> Frontend Skills</h3>
+    <h3 className="skills_title"> Design & others Skills</h3>
 
     <div className="skills_box">
        
@@ -12,7 +12,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">Adobe Creative Cloud</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -22,7 +22,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">CSS</h3>
+                    <h3 className="skills_name">Figma</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -32,7 +32,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">JavaScript</h3>
+                    <h3 className="skills_name">WordPress</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -41,17 +41,17 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">ReactJS</h3>
+                    <h3 className="skills_name">Git</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
 
 
                 <div className="skills_data">
-                <i className="bx bx-badge-check "></i>
+                <i className=""></i>
                 <div>
-                    <h3 className="skills_name">Tailwind</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <h3 className="skills_name">&#8203;</h3>
+                    <span className="skills_leve">&#8203;</span>
                 </div>
                 </div>
 
@@ -62,7 +62,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">JQuery</h3>
+                    <h3 className="skills_name">Technical Writing</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -72,7 +72,7 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">NextJS</h3>
+                    <h3 className="skills_name">Project Management</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
@@ -82,17 +82,17 @@ const Frontend = () => {
                 <div className="skills_data">
                 <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">TypeScript</h3>
+                    <h3 className="skills_name">Recruitment Strategies</h3>
                     <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
 
 
                 <div className="skills_data">
-                <i className=" "></i>
+                <i className="bx bx-badge-check "></i>
                 <div>
-                    <h3 className="skills_name">&#8203;</h3>
-                    <span className="skills_leve">&#8203;</span>
+                    <h3 className="skills_name">Collaborator Engagement</h3>
+                    <span className="skills_leve">Adavanced</span>
                 </div>
                 </div>
 
@@ -112,4 +112,4 @@ const Frontend = () => {
   )
 }
 
-export default Frontend
+export default DesignAndOthers
