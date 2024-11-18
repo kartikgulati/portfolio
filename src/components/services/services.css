@@ -144,8 +144,8 @@
     grid-template-columns: repeat(3, 218px);
    }
 }    
-    /* For medium devices */ 
-/* @media screen and (max-width: 768px) {
+   /* For medium devices  */
+@media screen and (max-width: 768px) {
     .services_container{
         grid-template-columns: repeat(1, 1fr);
         padding:0rem 1.5rem 1.5rem 1.5rem;
@@ -160,10 +160,9 @@
        .services_icon{
         font-size: 1.5rem;
        }
+} 
 
-} */
-
-/* @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
     .services_modal-content{
         padding: 4.5rem 1.5rem 2.5rem;
@@ -174,9 +173,9 @@
     }
     
 
-} */
+} 
 /* For small devices */
-/* @media screen and (max-width: 350px){
+@media screen and (max-width: 350px){
     .services_container{
         grid-template-columns: max-content;
         
@@ -187,8 +186,7 @@
         
        }
     
-} */
+} 
 
-  
 
 

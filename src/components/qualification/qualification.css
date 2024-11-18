@@ -112,11 +112,20 @@
 .qualification_button{
     margin: 0 var(--mb-1-75);
 }
+.qualification_button{
+  
+   font-size: medium;
+}
 }
 /* For small devices */
 @media screen and (max-width: 350px){
     .qualification_data{
          gap: 0.5rem;
+    }
+
+    .qualification_button{
+        margin: 0 var(--mb-1-75);
+        font-size: small;
     }
     
 
