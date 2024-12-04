@@ -154,6 +154,7 @@
 
        .services_content{
         padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+        margin-bottom: 1rem;
         
        }
 
@@ -172,6 +173,7 @@
         padding: 0rem;
     }
     
+    
 
 } 
 /* For small devices */
@@ -183,8 +185,8 @@
 
        .services_content{
         padding-right: 7rem;
-        
        }
+       
     
 } 
 
