@@ -13,7 +13,7 @@ function DesignAndOthers() {
                 <i className="bx bx-badge-check "></i>
                 <div>
                     <h3 className="skills_name">Adobe Creative Cloud</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <span className="skills_leve">Intermediate</span>
                 </div>
                 </div>
 
@@ -23,7 +23,7 @@ function DesignAndOthers() {
                 <i className="bx bx-badge-check "></i>
                 <div>
                     <h3 className="skills_name">Figma</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <span className="skills_leve">Basic</span>
                 </div>
                 </div>
 
@@ -83,7 +83,7 @@ function DesignAndOthers() {
                 <i className="bx bx-badge-check "></i>
                 <div>
                     <h3 className="skills_name">Recruitment Strategies</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <span className="skills_leve">Professional</span>
                 </div>
                 </div>
 

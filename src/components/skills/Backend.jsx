@@ -23,7 +23,7 @@ const Backend = () => {
                 <i className="bx bx-badge-check "></i>
                 <div>
                     <h3 className="skills_name">ExpressJS</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <span className="skills_leve">Professional</span>
                 </div>
                 </div>
 
@@ -44,7 +44,7 @@ const Backend = () => {
                 <i className="bx bx-badge-check"></i>
                 <div>
                     <h3 className="skills_name">Appwrite</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <span className="skills_leve">Professional</span>
                 </div>
                 </div>
 
@@ -85,7 +85,7 @@ const Backend = () => {
                 <i className="bx bx-badge-check "></i>
                 <div>
                     <h3 className="skills_name">Firebase</h3>
-                    <span className="skills_leve">Adavanced</span>
+                    <span className="skills_leve">Professional</span>
                 </div>
                 </div>
 

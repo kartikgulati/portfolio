@@ -16,7 +16,7 @@ export const Social = () => {
        </a>
 
        <a href="https://www.instagram.com/" className="home_social-icon" target='_blank'  rel="noreferrer">
-       <i className='uil uil-facebook-f'></i>
+       <i className='uil uil-twitter-alt'></i>
        </a>
 
        <a href="https://www.instagram.com/" className="home_social-icon" target='_blank'  rel="noreferrer">

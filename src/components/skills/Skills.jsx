@@ -7,8 +7,8 @@ import DesignAndOthers from './DesignAndOthers';
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
-        <h2 className="skills_section_title">Technologies</h2>
-      <span className="section_subtitle">My technical expertise.</span>
+        <h2 className="skills_section_title">Technologies & Skills</h2>
+      <span className="section_subtitle">My Technical Expertise.</span>
 
       <div className="skills_container container grid">
 
