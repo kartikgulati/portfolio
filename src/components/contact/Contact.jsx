@@ -56,9 +56,9 @@ const Contact = () => {
               <i className="bx bx-message contact_card-icon"></i>
 
               <h3 className="contact_card-title">LinkedIN</h3>
-              <span className="contact_card-data"><a href="https://www.linkedin.com/in/kartik-gulati-a5636b17a/" style={{color:"#757575"}}>kartik Gulati</a></span>
+              <span className="contact_card-data"><a href="https://www.linkedin.com/in/kartik-gulati-a5636b17a/" style={{color:"#757575"}} >kartik Gulati</a></span>
 
-              <a href="https://www.linkedin.com/in/kartik-gulati-a5636b17a/" className="contact_button">
+              <a href="https://www.linkedin.com/in/kartik-gulati-a5636b17a/" className="contact_button" target='_blank'>
                 Write Me{" "}
                 <i className="uil uil-arrow-right contact_button-icon"></i>
               </a>

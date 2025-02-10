@@ -28,12 +28,29 @@ export const Data=[
         title:"titile",
         description:"description",
         link:"https://github.com/",
+    },
+    {
+        id:4,
+        image: Image3,
+        name:"Project 3",
+        title:"titile",
+        description:"description",
+        link:"https://github.com/",
     }
 ];
 
 export const Data_1=[
     {
         id_1:1,
+        image_1: Image1,
+        name_1:"kartik gulati1",
+        title_1:"titile",
+        description_1:"description",
+        link_1:"https://github.com/",
+
+    },
+    {
+        id_1:2,
         image_1: Image1,
         name_1:"kartik gulati1",
         title_1:"titile",
