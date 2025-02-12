@@ -22,7 +22,7 @@ const [toggleState, setToggelState] = useState(0);
             {/* 1st services */}
             <div className="services_content "  >
                 <div>
-                    <i className="uil uil-web-grid services_icon"></i>
+                    <i className="uil uil-user-check services_icon"></i>
                     <h3 className="services_title">Portfolio<br></br>Design</h3>
                 </div>
 
@@ -73,7 +73,7 @@ const [toggleState, setToggelState] = useState(0);
 
             <div className="services_content">
                 <div>
-                    <i className="uil uil-web-grid services_icon"></i>
+                    <i className="uil uil-desktop services_icon"></i>
                     <h3 className="services_title">Website<br></br>Development/Design</h3>
                 </div>
 
