@@ -235,5 +235,21 @@ color: var(--title-color);
 
   }
 
-
+  svg.trail {
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    z-index: 1000;
+  }
+  
+  svg.trail path {
+    fill: none;
+  
+    stroke: #000;
+    stroke-width: 4px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
 
