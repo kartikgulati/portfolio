@@ -241,6 +241,7 @@ color: var(--title-color);
     left: 0;
   
     z-index: 1000;
+    pointer-events: none;
   }
   
   svg.trail path {
