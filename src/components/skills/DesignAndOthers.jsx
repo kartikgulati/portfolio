@@ -23,7 +23,7 @@ function DesignAndOthers() {
                 <i className="bx bx-badge-check "></i>
                 <div>
                     <h3 className="skills_name">Figma</h3>
-                    <span className="skills_leve">Basic</span>
+                    <span className="skills_leve">Intermediate</span>
                 </div>
                 </div>
 

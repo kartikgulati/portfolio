@@ -2,7 +2,7 @@ const svg = document.querySelector('svg.trail')
 const path = svg.querySelector('path')
 
 let points = []
-let segments = 100
+let segments = `20`
 let mouse = {
   x: 0,
   y: 0,

@@ -48,6 +48,14 @@ const Backend = () => {
                 </div>
                 </div>
 
+                <div className="skills_data">
+                <i className="bx bx-badge-check"></i>
+                <div>
+                    <h3 className="skills_name">PostgreSQL DB</h3>
+                    <span className="skills_leve">Professional</span>
+                </div>
+                </div>
+
 
                 <div className="skills_data">
                 <i className=" "></i>
