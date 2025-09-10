@@ -51,7 +51,7 @@ const Testimonials = () => {
                         <div className="testimonial_info">
                         <h3 className='testimonial_name'>{name_1}</h3>
                         <h3 className='testimonial_title'>{title_1}</h3>
-                        <p className="testimonial_description">{description_1}</p>
+                        {/* <p className="testimonial_description">{description_1}</p> */}
                         </div>
                         <a href={link_1} className="testimonial_button">view</a>
                     </SwiperSlide>
@@ -91,7 +91,7 @@ const Testimonials = () => {
                         <div className="testimonial_info">
                         <h3 className='testimonial_name'>{name}</h3>
                         <h3 className='testimonial_title'>{title}</h3>
-                        <p className="testimonial_description">{description}</p>
+                        {/* <p className="testimonial_description">{description}</p> */}
                         </div>
                         <a href={link} className="testimonial_button">view</a>
                     </SwiperSlide>

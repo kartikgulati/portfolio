@@ -36,11 +36,11 @@
     justify-content: center;
     text-align: center;
     padding: 0 2rem;
-    opacity: 100;
+    opacity: 0;
 }
 
 .testimonial_info:hover {
-    opacity: 0;
+    opacity: 100;
     transition-behavior: smooth;
     /* transition: all 0.4s ease-in-out; */
     
@@ -53,9 +53,14 @@
 }
 .testimonial_name{
     font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
+    font-weight: bold;
+    color: white;
     
     /* margin-bottom: var(--mb-0-25); */
+}
+
+.testimonial_title{
+    color: white;
 }
 
 .testimonial_description{
@@ -72,7 +77,9 @@
 .testimonial_section_title{
     font-weight: bold;
     text-align: center;
+   
 }
+
 
 .testimonial_button {
     position: absolute;
