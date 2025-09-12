@@ -2,18 +2,43 @@ import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/aboutme_image.png";
 // import CV from "../../assets/kartikgulati_resume.pdf";
+import { useEffect } from 'react';
 
 import Info from './Info';
 import resume from '../resume';
 
 const About = () => {
+
+  useEffect(() => {
+    const card = document.querySelector('.about_img');
+    const handleMouseMove = (e) => {
+      const { innerWidth, innerHeight } = window;
+      const x = e.clientX - innerWidth / 2;
+      const y = e.clientY - innerHeight / 2;
+      const shadowX = (x / innerWidth) * 40;
+      const shadowY = (y / innerHeight) * 40;
+      if (card) {
+        card.style.boxShadow = `${shadowX}px ${shadowY}px 30px rgba(0,0,0,0.6)`;
+      }
+    };
+    document.addEventListener('mousemove', handleMouseMove);
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, []);
+
+  
   return (
+
     <section className='about section' id="about">
       <h2 className="about_section_title">About Me</h2>
       <span className="section_subtitle">Let me introduce myself!</span>
       
       <div className="about_container container grid">
-        <img src={AboutImg} alt="" className="about_img" />
+        <div className='about_img'>
+          <img src={AboutImg} alt="" className="about_img"  />
+
+        </div>
 
 
         <div className="about_data">

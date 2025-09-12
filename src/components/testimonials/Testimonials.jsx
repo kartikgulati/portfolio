@@ -49,8 +49,9 @@ const Testimonials = () => {
                         <img src={image_1} alt="" className="testimonial_img" />
                         
                         <div className="testimonial_info">
-                        <h3 className='testimonial_name'>{name_1}</h3>
+                        
                         <h3 className='testimonial_title'>{title_1}</h3>
+                        <h3 className='testimonial_name'>{name_1}</h3>
                         {/* <p className="testimonial_description">{description_1}</p> */}
                         </div>
                         <a href={link_1} className="testimonial_button">view</a>
@@ -89,8 +90,9 @@ const Testimonials = () => {
                         <img src={image} alt="" className="testimonial_img" />
                         
                         <div className="testimonial_info">
-                        <h3 className='testimonial_name'>{name}</h3>
+                        
                         <h3 className='testimonial_title'>{title}</h3>
+                        <h3 className='testimonial_name'>{name}</h3>
                         {/* <p className="testimonial_description">{description}</p> */}
                         </div>
                         <a href={link} className="testimonial_button">view</a>
