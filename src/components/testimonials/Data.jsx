@@ -6,9 +6,19 @@ import paramount from "../../assets/projects/paramount.png";
 import portfolio from "../../assets/projects/portfolio.png";
 import gradiantGen from "../../assets/projects/gradiangen.png";
 import techOutputs from "../../assets/projects/techoutputs.png";
+import quizzzyfy from "../../assets/projects/quizzzyfy.png";
 
  // slider project data
 export const Data=[
+    {
+        id:0,
+        image: quizzzyfy,
+        name:"live Quiz app based on WebSockets with leaderboard func.",
+        title:"Quizzzyfy",
+        description:"description",
+        link:"https://quizzzyfy.vercel.app/",
+
+    },
     {
         id:1,
         image: expenseTracker,
