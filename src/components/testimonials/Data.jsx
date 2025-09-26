@@ -7,6 +7,7 @@ import portfolio from "../../assets/projects/portfolio.png";
 import gradiantGen from "../../assets/projects/gradiangen.png";
 import techOutputs from "../../assets/projects/techoutputs.png";
 import quizzzyfy from "../../assets/projects/quizzzyfy.png";
+import QuizCode from  "../../assets/projects/codequiz.png"
 
  // slider project data
 export const Data=[
@@ -36,9 +37,19 @@ export const Data=[
         description:"description",
         link:"https://paramountinstruments.com/",
 
-    },
-    {
+    },{
+
         id:3,
+        image: QuizCode,
+        name:"QuizCode",
+        title:"Quiz application to test coding skills",
+        description:"description",
+        link:"https://paramountinstruments.com/",
+
+    },
+
+    {
+        id:4,
         image: portfolio,
         name:"Made with Go Lang framework, HUGO",
         title:"Old Portfolio",
@@ -46,7 +57,7 @@ export const Data=[
         link:"https://kartikgulati.github.io/itskg/",
     },
     {
-        id:4,
+        id:6,
         image: gradiantGen,
         name:"Gradiant Generator with copy funtionality",
         title:"Gradiant Generator",
@@ -54,7 +65,7 @@ export const Data=[
         link:"https://gen-gradient.vercel.app/",
     },
      {
-        id:5,
+        id:7,
         image: techOutputs,
         name:"Blogging Site on Tech and latest trends, 100+ articles",
         title:"TechOutputs",
