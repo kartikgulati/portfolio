@@ -84,7 +84,7 @@ const [toggleState, setToggelState] = useState(0);
 
                 <div className="services_modal-content">
                     <i className="uil uil-times services_modal-close" onClick={()=>toggleTab(0)}></i>
-                    <h3 className="services_modal-title">Website<br></br>Development    / Design</h3>
+                    <h3 className="services_modal-title">Website<br></br>Dev./Design</h3>
                     <p className="services_modal-description">Bring your online presence to life with our professional website development and design services. We specialize in creating visually stunning, highly functional, and user-friendly websites tailored to your unique needs. From sleek corporate sites to vibrant e-commerce platforms, our designs ensure seamless navigation, responsiveness, and fast load times. Let us help you captivate your audience and achieve your digital goals with a website that stands out from the competition.</p>
 
                     <ul className="services_modal-services grid">
