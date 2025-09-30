@@ -10,6 +10,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
+// import Github from './components/github_calander/Github';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Services /> 
       <Qualification/>
       <Testimonials/>
+      {/* <Github/> */}
       <Contact/>
       <Footer/>
       <ScrollUp />
