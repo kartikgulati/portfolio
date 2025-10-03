@@ -43,7 +43,12 @@ const About = () => {
 
         <div className="about_data">
           <Info/>
-          <p className="about_description"> Web Developer with a proven track record of enhancing project efficiency and delivering high-performance web solutions. Skilled in modern frontend technologies like ReactJS, TypeScript, and Tailwind CSS, alongside backend frameworks such as Node.js and Express.js. Adept at optimizing user experience with creative designs using tools like Adobe Creative Cloud and Figma. Leveraging expertise in database management (MySQL, MongoDB) and a collaborative approach. Download my resume to learn more about my skills and experience.</p>
+          <p className="about_description"> I’m a passionate Full-Stack Developer with a strong foundation in modern web technologies, including React, Next.js, TypeScript, Node.js, and Tailwind CSS. Over the past year, I’ve built and deployed multiple real-world projects—ranging from interactive quiz applications to AI-powered tools—that demonstrate my ability to turn ideas into production-ready solutions.<br/><br/>
+
+          I bring leadership, problem-solving, and communication skills into every project with passion and drive. Whether solo or in a team, I thrive on challenges and love turning ideas into impactful, user-friendly solutions with clean, scalable code.<br/><br/>
+
+          Currently, I’m seeking opportunities where I can contribute as a Full-Stack Developer/ Frontend Developer, apply my technical expertise to solve real-world problems, and continue growing as a builder of innovative, user-focused applications.
+</p>
 
 
           
