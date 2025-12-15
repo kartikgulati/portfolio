@@ -18,21 +18,21 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="contact_section_title">Contact Me</h2>
-      <span className="section_subtitle">For Formal Corresponce </span>
+      <span className="section_subtitle">For Formal Correspondence </span>
 
       <div className="contact_container container grid">
         <div className="contact_content">
-          <h3 className="contact_title">talk to me</h3>
+          <h3 className="contact_title">Quick Connect</h3>
 
           <div className="contact_info">
             {/* conatct card */}
             <div className="contact_card">
               <i className="bx bx-mail-send contact_card-icon"></i>
 
-              <h3 className="contact_card-title">Emaile</h3>
+              <h3 className="contact_card-title">Email</h3>
               <span className="contact_card-data">kartikgulati19@gmail.com</span>
 
-              <a href=" " className="contact_button">
+              <a href="mailto:kartikgulati19@gmail.com" className="contact_button">
                 Write Me{" "}
                 <i className="uil uil-arrow-right contact_button-icon"></i>
               </a>
@@ -46,7 +46,7 @@ const Contact = () => {
               <span className="contact_card-data"><a href="tel:519-694-8284" style={{color:"#757575"}}>+1 (519) 694 8284</a></span>
 
               <a href="tel:519-694-8284" className="contact_button">
-                Write Me{" "}
+                Text Me{" "}
                 <i className="uil uil-arrow-right contact_button-icon"></i>
               </a>
             </div>
@@ -56,10 +56,10 @@ const Contact = () => {
               <i className="bx bx-message contact_card-icon"></i>
 
               <h3 className="contact_card-title">LinkedIN</h3>
-              <span className="contact_card-data"><a href="https://www.linkedin.com/in/kartik-gulati-a5636b17a/" style={{color:"#757575"}} >kartik Gulati</a></span>
+              <span className="contact_card-data"><a href="https://www.linkedin.com/in/kartik-gulati-a5636b17a/" style={{color:"#757575"}} >Kartik Gulati</a></span>
 
               <a href="https://www.linkedin.com/in/kartik-gulati-a5636b17a/" className="contact_button" target='_blank'>
-                Write Me{" "}
+                DM Me{" "}
                 <i className="uil uil-arrow-right contact_button-icon"></i>
               </a>
             </div>
@@ -67,7 +67,7 @@ const Contact = () => {
         </div>
 
         <div className="contact_content">
-          <h3 className="contact_title">Write me a project</h3>
+          <h3 className="contact_title">Let's Connect!</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact_form">
             <div className="contact_form-div">
