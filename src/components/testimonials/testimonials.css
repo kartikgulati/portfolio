@@ -231,7 +231,8 @@
     align-items: start;
 }
 
-.projects_gridCard {
+.projects_gridCard,
+.homepage_projectCard {
     margin-bottom: 0;
     cursor: pointer;
     border-radius: 1.35rem;
@@ -419,11 +420,14 @@
 }
 
 .projects_gridCard::after,
-.projects_gridCard .testimonial_info {
+.homepage_projectCard::after,
+.projects_gridCard .testimonial_info,
+.homepage_projectCard .testimonial_info {
     display: none;
 }
 
-.projects_gridCard .testimonial_img {
+.projects_gridCard .testimonial_img,
+.homepage_projectCard .testimonial_img {
     aspect-ratio: 16 / 10;
     min-height: 220px;
     border-radius: 0;
