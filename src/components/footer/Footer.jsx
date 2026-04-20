@@ -1,8 +1,12 @@
 import React from 'react'
+import { useLocation } from "react-router-dom";
 import "./footer.css";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
+  const location = useLocation();
+  const sectionHref = (hash) => (location.pathname === "/" ? hash : `/${hash}`);
+
   return (
     <div>
       <footer>
@@ -12,25 +16,25 @@ const Footer = () => {
         <ul className="footer_list">
 
           <li  className="footer_link">
-            <a href="#about" className="footer_link">About</a>
+            <a href={sectionHref("#about")} className="footer_link">About</a>
           </li>
 
           <li  className="footer_link">
-            <a href="#skills" className="footer_link">Skills</a>
+            <a href={sectionHref("#skills")} className="footer_link">Skills</a>
           </li>
 
           
 
           <li  className="footer_link">
-            <a href="#services" className="footer_link">Services</a>
+            <a href={sectionHref("#services")} className="footer_link">Services</a>
           </li>
 
           <li  className="footer_link">
-            <a href="#projects" className="footer_link">Projects</a>
+            <a href={sectionHref("#projects")} className="footer_link">Projects</a>
           </li>
 
           <li  className="footer_link">
-            <a href="#contact" className="footer_link">Contact</a>
+            <a href={sectionHref("#contact")} className="footer_link">Contact</a>
           </li>
         </ul>
   {/* social icon */}
