@@ -73,4 +73,5 @@ const Footer = () => {
   )
 };
 
-export default Footer
+export { Footer };
+export default Footer;

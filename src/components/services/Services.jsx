@@ -176,4 +176,5 @@ const [toggleState, setToggelState] = useState(0);
   )
 }
  
-export default Services
+export { Services };
+export default Services;

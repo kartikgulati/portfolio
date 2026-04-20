@@ -106,4 +106,5 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export { Testimonials };
+export default Testimonials;

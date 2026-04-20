@@ -5,7 +5,7 @@ import Data from './Data';
 import ScrollDown from './ScrollDown';
 import { useEffect } from 'react';
 
-export const Home = () => {
+const Home = () => {
 
    useEffect(() => {
       const card = document.querySelector('.home_img');
@@ -41,4 +41,6 @@ export const Home = () => {
    </section>
   )
 }
-export default Home
+
+export { Home };
+export default Home;

@@ -1,14 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./header.css"
 
 export const Header = () => {
     // auto scroll header and change color
-    window.addEventListener("scroll", function(){
-        const header = this.document.querySelector(".header");
-        if (this.scrollY >= 80) header.classList.add("scroll_header");
-
-        else header.classList.remove("scroll_header")
-    });
+    useEffect(() => {
+        const handleScroll = () => {
+            const header = document.querySelector(".header");
+            if (window.scrollY >= 80) header.classList.add("scroll_header");
+            else header.classList.remove("scroll_header")
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
 // toggle menu
     const[Toggle, showMenu] = useState(false);
@@ -16,6 +19,8 @@ export const Header = () => {
 
 
   return (
+<div>
+   
     <header className="header">
         <nav className="nav container">
             <a href="index.html" className="nav_logo">Kartik Gulati</a>
@@ -68,6 +73,9 @@ export const Header = () => {
            
         </nav>
     </header>
+    
+    </div>
+   
   )
 }
 

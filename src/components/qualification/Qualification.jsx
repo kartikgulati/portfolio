@@ -310,4 +310,5 @@ const Qualification = () => {
   )
 }
 
-export default Qualification
+export { Qualification };
+export default Qualification;
