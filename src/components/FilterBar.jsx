@@ -4,9 +4,9 @@ const FilterBar = ({ options, selectedFilters, onToggle, onClear }) => {
   return (
     <div className="projects_filterBar">
       <div className="projects_filterIntro">
-        <h2 className="section_title">All Projects</h2>
+        <h2 className="section_title">Projects</h2>
         <span className="section_subtitle">
-          Filter by technology stack to explore the full body of work.
+          A Motion-style editorial view of selected work.
         </span>
       </div>
 

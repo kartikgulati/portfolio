@@ -14,7 +14,8 @@ export const allProjects = [
     image: aiResumeBuilder,
     name: "Advanced AI resume builder with GPT-powered content generation.",
     title: "Build AI Resume",
-    description: "description",
+    description:
+      "An AI-first resume workflow focused on faster drafting, stronger wording, and cleaner presentation for job seekers.",
     link: "https://buildairesume.vercel.app/",
     tech: ["React", "OpenAI", "Tailwind CSS", "Vercel"],
     featured: true,
@@ -24,7 +25,8 @@ export const allProjects = [
     image: buttonStudio,
     name: "Component library for React with Tailwind CSS buttons.",
     title: "Button Studio",
-    description: "description",
+    description:
+      "A component playground for polished button systems, with reusable variants aimed at product teams building consistent UI.",
     link: "https://buttonstudio.netlify.app/",
     tech: ["React", "Tailwind CSS", "UI Library"],
     featured: true,
@@ -34,7 +36,8 @@ export const allProjects = [
     image: quizzzyfy,
     name: "Live quiz app with WebSockets and a competitive leaderboard.",
     title: "Quizzzyfy",
-    description: "description",
+    description:
+      "A multiplayer quiz experience with real-time scoring, fast feedback loops, and a leaderboard that keeps sessions competitive.",
     link: "https://quizzzyfy.vercel.app/",
     tech: ["React", "WebSockets", "Node.js", "Vercel"],
     featured: false,
@@ -44,7 +47,8 @@ export const allProjects = [
     image: expenseTracker,
     name: "Advanced expense tracker with authentication and dashboards.",
     title: "Expense Tracker",
-    description: "description",
+    description:
+      "A personal finance dashboard for tracking spending, organizing categories, and keeping account access gated behind auth.",
     link: "https://expense-tracker-kg.vercel.app/",
     tech: ["React", "Auth", "JavaScript", "Vercel"],
     featured: false,
@@ -54,7 +58,8 @@ export const allProjects = [
     image: paramount,
     name: "Business website built for Paramount Instruments.",
     title: "Paramount",
-    description: "description",
+    description:
+      "A production business site designed to present services clearly, build trust, and support a more professional client-facing presence.",
     link: "https://paramountinstruments.com/",
     tech: ["React", "Business Website", "Frontend"],
     featured: false,
@@ -64,7 +69,8 @@ export const allProjects = [
     image: QuizCode,
     name: "Quiz application built to test coding skills.",
     title: "QuizCode",
-    description: "description",
+    description:
+      "A coding-focused assessment experience that turns technical questions into a cleaner, more approachable product flow.",
     link: "https://paramountinstruments.com/",
     tech: ["React", "JavaScript", "Quiz App"],
     featured: false,
@@ -74,7 +80,8 @@ export const allProjects = [
     image: portfolio,
     name: "Portfolio built with the Go-based HUGO framework.",
     title: "Old Portfolio",
-    description: "description",
+    description:
+      "An earlier portfolio iteration built with Hugo, focused on speed, simplicity, and a clean presentation of work.",
     link: "https://kartikgulati.github.io/itskg/",
     tech: ["Hugo", "Go", "Portfolio"],
     featured: false,
@@ -84,7 +91,8 @@ export const allProjects = [
     image: gradiantGen,
     name: "Gradient generator with copy-to-clipboard functionality.",
     title: "Gradient Generator",
-    description: "description",
+    description:
+      "A lightweight front-end utility for quickly composing gradients and copying production-ready CSS values.",
     link: "https://gen-gradient.vercel.app/",
     tech: ["React", "CSS", "Tooling"],
     featured: false,
@@ -94,7 +102,8 @@ export const allProjects = [
     image: techOutputs,
     name: "Technology blog with 100+ articles and trend coverage.",
     title: "TechOutputs",
-    description: "description",
+    description:
+      "A content-driven publishing project centered on technology trends, educational posts, and long-tail organic reach.",
     link: "https://techoutputs.blogspot.com/",
     tech: ["Blog", "Content", "SEO"],
     featured: false,
