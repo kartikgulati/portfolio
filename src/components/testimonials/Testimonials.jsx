@@ -91,7 +91,7 @@ const Testimonials = () => {
 
         {/* Project list 1 */}
         <Swiper
-          className="testimonials_container"
+          className="testimonials_container "
           loop={true}
           grabCursor={true}
           slidesPerView={1}

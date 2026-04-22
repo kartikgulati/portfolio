@@ -4,6 +4,7 @@
 
 .testimonials_container {
     margin-bottom: var(--mb-2);
+    
 }
 
 .testimonial_card{
@@ -233,7 +234,6 @@
 
 .projects_gridCard,
 .homepage_projectCard {
-    margin-bottom: 0;
     cursor: pointer;
     border-radius: 1.35rem;
     min-height: 100%;
