@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./header.css";
+import "./header.mobile.css";
 
 export const Header = () => {
   const location = useLocation();
