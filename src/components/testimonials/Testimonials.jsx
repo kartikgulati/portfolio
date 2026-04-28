@@ -217,7 +217,7 @@ const Testimonials = () => {
                         className="projects_secondaryButton"
                         onClick={() => setSelectedProject(null)}
                       >
-                        Back to Slider
+                        Back
                       </button>
                     </div>
                   </div>
