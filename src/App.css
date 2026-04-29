@@ -75,6 +75,13 @@
 
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 2rem);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body,
@@ -199,6 +206,10 @@ color: var(--title-color);
   /* For medium devices */ 
   @media screen and (max-width: 768px) {
 
+    html {
+      scroll-padding-top: 0;
+    }
+
     /* body{
       margin: 0 0 var(--header-height) 0;
     } */
@@ -253,4 +264,3 @@ color: var(--title-color);
     stroke-linejoin: round;
   }
   
-
