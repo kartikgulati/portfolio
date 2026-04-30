@@ -1,0 +1,85 @@
+.techstack {
+ 
+}
+
+.techstack_container {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.techstack_intro {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+/* 🔥 KEY CHANGE: flex + perspective (NOT grid) */
+.techstack_grid {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  perspective: 900px;
+}
+
+/* CARD */
+.techstack_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+
+  min-width: 120px;
+  min-height: 140px;
+  padding: 1.4rem 1rem;
+
+  border-radius: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.05);
+
+  text-align: center;
+
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+/* ICON */
+.techstack_icon {
+  font-size: 2.4rem;
+  color: var(--title-color);
+}
+
+/* TEXT */
+.techstack_label {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+}
+
+/* 📱 RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .techstack_container {
+    gap: 2rem;
+  }
+
+  .techstack_card {
+    min-width: 100px;
+    min-height: 120px;
+    padding: 1.2rem 0.8rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .techstack_grid {
+    gap: 0.75rem;
+  }
+}

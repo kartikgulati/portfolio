@@ -4,6 +4,7 @@ import "./App.css";
 import { Header } from "./components/header/Header";
 import { Home } from "./components/home/Home";
 import { About } from "./components/about/About";
+import TechStack from "./components/techstack/techstack";
 import { Skills } from "./components/skills/Skills";
 import { Services } from "./components/services/Services";
 import { Qualification } from "./components/qualification/Qualification";
@@ -20,6 +21,7 @@ function HomePage() {
     <main className="home">
       <Home />
       <About />
+      <TechStack />
       <Skills />
       <Services />
       <Qualification />
