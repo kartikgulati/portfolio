@@ -24,6 +24,14 @@
 
 }
 
+.nav_toggle,
+.nav_close{
+    border: 0;
+    background: transparent;
+    color: var(--title-color);
+    line-height: 1;
+}
+
 .nav_list{
     display:flex;
     column-gap: 2rem;
@@ -45,7 +53,7 @@
 }
 /* ACTIVATE LINKS OF  NAVA AND OTHER */
 
-.activate_link,.nav_list:hover{
+.active_link,.nav_link:hover{
     color: var(--title-color-dark);
 }
 

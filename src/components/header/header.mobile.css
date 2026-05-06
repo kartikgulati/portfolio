@@ -17,9 +17,10 @@
         width: 100%;
         background-color: lightgray;
         padding: 2rem 1.5rem 4rem;
-        box-shadow: 0 -1 4px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5em 1.5rem 0 0;
         transition: .5s;
+        z-index: calc(var(--z-fixed) + 1);
     }
 
     .show_menu{
@@ -43,7 +44,12 @@
         font-size: 1.5rem;
         cursor: pointer;
         color: var(--title-color);
-        transition: -0.5s;
+        transition: color 0.3s ease;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .nav_close:hover{
@@ -53,9 +59,16 @@
     .nav_toggle{
         font-size: 1.1rem;
         cursor: pointer;
+        width: 2.75rem;
+        height: 2.75rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: left;
+        margin-right: 1rem;
+        
     }
 
-    .nav_icon,.nav_close,.nav_toggle{
+    .nav_icon{
         display: block;
     }
 }

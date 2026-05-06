@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
+import { FiMenu, FiSquare,FiGrid, FiX } from "react-icons/fi";
 import { Link, useLocation } from "react-router-dom";
 import "./header.css";
 import "./header.mobile.css";
 
 export const Header = () => {
   const location = useLocation();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeNav, setActiveNav] = useState("#home");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,16 +28,14 @@ export const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const [Toggle, showMenu] = useState(false);
-  const [activeNav, setActiveNav] = useState("#home");
   const sectionHref = (hash) => (location.pathname === "/" ? hash : `/${hash}`);
   const handleNavClick = (hash) => {
     setActiveNav(hash);
-    showMenu(false);
+    setIsMenuOpen(false);
   };
   const handleRouteClick = (route) => {
     setActiveNav(route);
-    showMenu(false);
+    setIsMenuOpen(false);
   };
 
 
@@ -45,7 +46,7 @@ export const Header = () => {
           <Link to="/" className="nav_logo" onClick={() => handleNavClick("#home")}>
             Kartik Gulati
           </Link>
-          <div className={Toggle ? "nav_menu show_menu" : "nav_menu"}>
+          <div className={isMenuOpen ? "nav_menu show_menu" : "nav_menu"} id="nav-menu">
             <ul className="nav_list grid">
               <li className="nav_item">
                 <a
@@ -118,12 +119,26 @@ export const Header = () => {
               </li>
             </ul>
 
-            <i className="uil uil-times nav_close" onClick={() => showMenu(!Toggle)}></i>
+            <button
+              type="button"
+              className="nav_close"
+              onClick={() => setIsMenuOpen(false)}
+              aria-label="Close navigation menu"
+            >
+              <FiX aria-hidden="true" />
+            </button>
           </div>
 
-          <div className="nav_toggle" onClick={() => showMenu(!Toggle)}>
-            <i className="uil uil-apps"></i>
-          </div>
+          <button
+            type="button"
+            className="nav_toggle"
+            onClick={() => setIsMenuOpen((open) => !open)}
+            aria-controls="nav-menu"
+            aria-expanded={isMenuOpen}
+            aria-label="Toggle navigation menu"
+          >
+            <FiGrid aria-hidden="true" />
+          </button>
         </nav>
       </header>
     </div>
