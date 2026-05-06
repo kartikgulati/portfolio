@@ -101,21 +101,31 @@ const TechStack = () => {
 
   return (
     <section className="techstack section" id="techstack" ref={sectionRef}>
-        
-      <div className="flex items-center justify-center gap-3 text-2xl font-medium tracking-tight text-black">
-  <Bracket className="h-12 text-black" />
-
-  <span className="font-geist">
-   Tech Stack 
-  </span>   
-
-  <Bracket className="h-12 scale-x-[-1] text-black" />
-</div>
+      <motion.div
+        className="techstack_heading"
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.45 }}
+        transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+      >
+        <Bracket className="techstack_bracket" />
+        <div>
+          <h2 className="section_title">Tech Stack</h2>
+          <span className="section_subtitle techstack_subtitle">Tools I build with regularly</span>
+        </div>
+        <Bracket className="techstack_bracket techstack_bracketMirror" />
+      </motion.div>
       <div className="techstack_container container">
-        <p className="techstack_intro">
+        <motion.p
+          className="techstack_intro"
+          initial={{ opacity: 0, y: 18 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.55, delay: 0.08 }}
+        >
           I work across product, frontend, backend, and deployment workflows.
           These are the tools I reach for most often when shipping projects.
-        </p>
+        </motion.p>
 
         <div className="techstack_grid">
           {STACK_ITEMS.map((item, index) => (

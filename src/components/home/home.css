@@ -5,7 +5,7 @@
 }
 .home_content{
     grid-template-columns: 116px repeat(2, 1fr);
-    padding-top: 5.5 rem;
+    padding-top: 2rem;
     column-gap: 2rem;
     align-items: center;
 }
@@ -27,6 +27,7 @@
 .home_title{
     font-size: var(--big-font-size);
     margin-bottom: var( --mb-0-25);
+    line-height: 0.95;
 }
 .home_hand{
     width: 3px;
@@ -57,6 +58,7 @@
 .home_description{
     max-width: 400px ;
     margin-bottom: var(--mb-2);
+    line-height: 1.75;
 }
 
 
@@ -72,7 +74,9 @@
     order: 1;
     width: 300px;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 24px;
+    border: 1px solid rgba(255,255,255,0.55);
+    box-shadow: 0 30px 70px rgba(15, 23, 42, 0.16);
     
   
     animation: profile_animate 8s ease-in-out infinite 1s;

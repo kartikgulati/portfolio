@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import { motion } from "framer-motion";
 import "./App.css";
 import { Header } from "./components/header/Header";
 import { Home } from "./components/home/Home";
@@ -16,18 +17,58 @@ import { Lanyard } from "./components/lanyard/Lanyard";
 import ProjectsPage from "./pages/ProjectsPage";
 // import { Github } from './components/github_calander/Github';
 
+const revealUp = {
+  hidden: { opacity: 0, y: 48 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
+  },
+};
+
+function SectionReveal({ children, delay = 0 }) {
+  return (
+    <motion.div
+      className="section-shell"
+      variants={revealUp}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.18 }}
+      transition={{ delay }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
 function HomePage() {
   return (
-    <main className="home">
-      <Home />
-      <About />
-      <TechStack />
-      <Skills />
-      <Services />
-      <Qualification />
-      <Testimonials />
+    <main className="home site-shell">
+      <SectionReveal>
+        <Home />
+      </SectionReveal>
+      <SectionReveal>
+        <About />
+      </SectionReveal>
+      <SectionReveal>
+        <TechStack />
+      </SectionReveal>
+      <SectionReveal>
+        {/* <Skills /> */}
+      </SectionReveal>
+      <SectionReveal>
+        <Services />
+      </SectionReveal>
+      <SectionReveal>
+        <Qualification />
+      </SectionReveal>
+      <SectionReveal>
+        <Testimonials />
+      </SectionReveal>
       {/* <Github/> */}
-      <Contact />
+      <SectionReveal>
+        <Contact />
+      </SectionReveal>
     </main>
   );
 }

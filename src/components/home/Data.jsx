@@ -1,17 +1,38 @@
 import React from 'react'
+import { motion } from "framer-motion";
+
+const contentVariant = {
+  hidden: { opacity: 0, y: 28 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1], staggerChildren: 0.08 },
+  },
+};
+
+const itemVariant = {
+  hidden: { opacity: 0, y: 18 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.45 } },
+};
 
 const Data = () => {
   return (
-    <div className="home_data">
-        <h1 className="home_title">
-            Kartik Gulati
+    <motion.div
+        className="home_data"
+        variants={contentVariant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.4 }}
+    >
+        <motion.h1 className="home_title" variants={itemVariant}>
+            Kartik Gulati 
             <svg
                   width="36"
                   height="36"
                   viewBox="0 0 48 48"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="home__hand"
+                  className="home__hand"
                 >
                   <path
                     d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -54,15 +75,15 @@ const Data = () => {
                     fill="#EBA352"
                   ></path>
                 </svg>
-        </h1>
+        </motion.h1>
 
-        <h3 className="home_subtitle">Full-Stack Developer | Technologist</h3>
-        <p className="home_description">Passionate about building scalable, high-performance web apps that deliver exceptional UI/UX.</p>
+        <motion.h3 className="home_subtitle" variants={itemVariant}>Full-Stack Developer | Technologist</motion.h3>
+        <motion.p className="home_description" variants={itemVariant}>Passionate about building scalable, high-performance web apps that deliver exceptional UI/UX.</motion.p>
 
-        <a href="#contact" className="button button--flex">
+        <motion.a href="#contact" className="button button--flex" variants={itemVariant}>
             Say Hello
             <svg
-                  class="button__icon"
+                  className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -78,8 +99,8 @@ const Data = () => {
                     fill="#000"
                   ></path>
                 </svg>
-                </a>
-    </div>
+                </motion.a>
+    </motion.div>
   )
 }
 

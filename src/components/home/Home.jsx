@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 import "./home.css";
 import Social from './Social';
 import Data from './Data';
@@ -29,9 +30,22 @@ const Home = () => {
    <section className="home section" id="home">
    <div className="home_container container grid">
     <div className="home_content grid">
-      <Social />
+      <motion.div
+        initial={{ opacity: 0, x: -28 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true, amount: 0.4 }}
+        transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+      >
+        <Social />
+      </motion.div>
 
-      <div className="home_img"></div>
+      <motion.div
+        className="home_img"
+        initial={{ opacity: 0, scale: 0.9, rotate: -4 }}
+        whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+        viewport={{ once: true, amount: 0.35 }}
+        transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
+      />
       <Data/>
 
     </div>
