@@ -110,7 +110,7 @@ const TechStack = () => {
       >
         <Bracket className="techstack_bracket" />
         <div>
-          <h2 className="section_title">Tech Stack</h2>
+          <h2 className="techstack_heading">Tech Stack</h2>
           <span className="section_subtitle techstack_subtitle">Tools I build with regularly</span>
         </div>
         <Bracket className="techstack_bracket techstack_bracketMirror" />
