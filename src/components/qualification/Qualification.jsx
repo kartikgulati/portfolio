@@ -122,14 +122,35 @@ const Qualification = () => {
                 <div className={toggleState ===1 ? "qualification_content qualification_content-active":"qualification_content"}>
 
                     <div className="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
+                        </div>
 
                         <div >
                             <h3 className="qualification_title">
-                                Assistant Manager - OTP(Operations Technology Person)
+                               People & Technology Department Manager
                             </h3>
                             <span className="qualification_subtitle">McDonald's Canada</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt">2021-present</i>
+                                    <i className="uil uil-calendar-alt">2024-present</i>
+                                </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div className="qualification_data">
+
+                        <div >
+                            <h3 className="qualification_title">
+                                Assistant Manager - OTP (Operations Technology Person)
+                            </h3>
+                            <span className="qualification_subtitle">McDonald's Canada</span>
+                                <div className="qualification_calendar">
+                                    <i className="uil uil-calendar-alt">2021-2024</i>
                                 </div>
                         </div>
 
@@ -213,7 +234,7 @@ const Qualification = () => {
 
     <div >
         <h3 className="qualification_title">
-        AI Fluency for students
+       AI Fluency: Framework & Foundations
         </h3>
         <span className="qualification_subtitle">Anthropic</span>
             <div className="qualification_calendar">
@@ -224,8 +245,46 @@ const Qualification = () => {
     
 </div>
 
+<div className="qualification_data">
 
+    
+    
+    <div >
+        <h3 className="qualification_title">
+        Claude Code in Action
+        </h3>
+        <span className="qualification_subtitle">Anthropic</span>
+            <div className="qualification_calendar">
+               
+            </div>
+    </div>
 
+    <div>
+        <span className="qualification_rounder"></span>
+        <span className="qualification_line"></span>
+    </div>
+</div>
+
+<div className="qualification_data">
+    <div></div>
+
+    <div>
+        <span className="qualification_rounder"></span>
+        <span className="qualification_line"></span>
+    </div>
+
+    <div >
+        <h3 className="qualification_title">
+        AI Fluency for students
+        </h3>
+        <span className="qualification_subtitle">Anthropic</span>
+            <div className="qualification_calendar">
+                
+            </div>
+    </div>
+
+    
+</div>
 
 <div className="qualification_data">
 
