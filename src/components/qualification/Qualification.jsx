@@ -225,6 +225,26 @@ const Qualification = () => {
 <div className={toggleState ===3 ? "qualification_content qualification_content-active":"qualification_content"}>
 
 <div className="qualification_data">
+
+    
+    
+    <div >
+        <h3 className="qualification_title">
+        Introduction to Model Context Protocol
+        </h3>
+        <span className="qualification_subtitle">Anthropic</span>
+            <div className="qualification_calendar">
+               
+            </div>
+    </div>
+
+    <div>
+        <span className="qualification_rounder"></span>
+        <span className="qualification_line"></span>
+    </div>
+</div>
+
+<div className="qualification_data">
     <div></div>
 
     <div>
