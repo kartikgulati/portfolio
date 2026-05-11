@@ -182,13 +182,7 @@ const Testimonials = () => {
                         </motion.p>
                       </div>
 
-                      <button
-                        type="button"
-                        className="projects_modalClose"
-                        onClick={() => setSelectedProject(null)}
-                      >
-                        Close
-                      </button>
+                    
                     </div>
 
                     <p className="projects_modalDescription">
