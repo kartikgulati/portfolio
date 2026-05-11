@@ -160,13 +160,7 @@ const ProjectsPage = () => {
                           </motion.p>
                         </div>
 
-                        <button
-                          type="button"
-                          className="projects_modalClose"
-                          onClick={() => setSelectedProject(null)}
-                        >
-                          Close
-                        </button>
+                        
                       </div>
 
                       <p className="projects_modalDescription">
@@ -195,7 +189,7 @@ const ProjectsPage = () => {
                           className="projects_secondaryButton "
                           onClick={() => setSelectedProject(null)}
                         >
-                          Back to Grid
+                          Back
                         </button>
                       </div>
                     </div>

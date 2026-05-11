@@ -37,6 +37,10 @@ const ProjectCard = ({
   const categoryLabel = project.category || project.tech?.[0] || "Project";
   const showTags = variant === "compact" || variant === "default";
   const isCompact = variant === "compact";
+  const layoutTransition = {
+    duration: 0.25,
+    ease: [0.22, 1, 0.36, 1],
+  };
 
   return (
     <motion.article
@@ -45,8 +49,11 @@ const ProjectCard = ({
       className={className}
       onClick={handleSelect}
       whileTap={onSelect ? { scale: 0.985 } : undefined}
-      transition={{ duration: 0.25, ease: "easeOut" }}
       {...cardMotionProps}
+      transition={{
+        ...cardMotionProps.transition,
+        layout: layoutTransition,
+      }}
     >
       <motion.img
         layoutId={imageId}
