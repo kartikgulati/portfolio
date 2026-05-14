@@ -23,7 +23,7 @@
     margin-right: var(--mb-0-25);
  }
 
- .qualification_active{
+ .qualification-active{
     color: var(--title-color-dark);
  }
 
@@ -105,17 +105,14 @@
 }
 
 @media screen and (max-width: 576px) {
+    .qualification_sections{
+        grid-template-columns: initial;
+    }
 
-.qualification_sections{
-    grid-template-columns: initial;
-}
-.qualification_button{
-    margin: 0 var(--mb-1-75);
-}
-.qualification_button{
-  
-   font-size: medium;
-}
+    .qualification_button{
+        margin: 0 var(--mb-1-75);
+        font-size: medium;
+    }
 }
 /* For small devices */
 @media screen and (max-width: 350px){
@@ -131,9 +128,7 @@
 
 }
 
-/*************  ✨ Codeium Command ⭐  *************/
 .qualification_button:hover,
-.qualification_active .qualification_button{
+.qualification_button.qualification-active{
     border-bottom: 0.125rem solid var(--title-color);
 }
-/******  6f3013f6-7223-4e86-a0b1-902c28b5f8da  *******/

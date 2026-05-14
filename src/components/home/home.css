@@ -29,12 +29,6 @@
     margin-bottom: var( --mb-0-25);
     line-height: 0.95;
 }
-.home_hand{
-    width: 3px;
-    height: 3px;
-    margin-left: 0.4rem;
-}
-
 .home_subtitle{
     position: relative;
     font-size: var(--h3-font-size);
@@ -188,14 +182,6 @@
             padding-top: 3.5rem;
             
         }
-        .home_img{
-            order: initial;
-            justify-self: initial;
-            /* width: 200px;
-            height: 200px; */
-    
-        }
-
         .home_data{
             grid-column: 1/4;
         }
@@ -205,77 +191,12 @@
             justify-self: initial;
             width: 250px;
             height: 250px;
-            /* box-shadow: inset 0 0 0 9px rgb(255, 255, 255 / 30%); */
-    
         }
-
-        
 
         .home_scroll{
             display: none;
         }
-
-        /* .home_title{
-            margin-top: 20px;
-        }
-
-        .section{
-            padding:2rem 0 2rem
-        }
-        .home_title{
-            font-size: 30px;
-            
-        }
-        .home_description{
-        
-            margin-bottom: var(--mb-2-5);
-        } */
-
-       
-        
-    
-
-        
-
     }
-/*     
-    @media screen and (max-width: 576px) {
-        .home_img{ */
-            /* order: initial;
-            justify-self: initial; */
-            /* width: 180px;
-            height: 180px; */
-            /* align-items: center; */
-/*         
-        }
-            
-        .home__hand{
-            width: 22px;
-            height: 22px;
-        }
-        .home_data{
-            grid-column: 1/4;
-        }
-        
-
-        .section{
-            padding:2rem 0 2rem
-        }
-
-        .home_description{
-        
-            margin-bottom: var(--mb-2-5);
-        }
-
-        .home_subtitle{
-            padding-left: 3.75rem;
-           
-        }
-
-        
-    } */
-
-
 
    /* For small devices */
     @media screen and (max-width: 350px){
@@ -289,10 +210,6 @@
             width: 22px;
             height: 22px;
         }
-        /* .home_title{
-            margin-left: 20px;
-        } */
-    
     }
 
     

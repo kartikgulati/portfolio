@@ -34,20 +34,6 @@ footer{
     display: flex;
     justify-content: center;
     column-gap: 1.25rem;
-    
-}
-
-.footer_social-link{
-    background-color: var(--title-color);
-    color: var(--container-color);
-    font-size: 1rem;
-    padding: 0.4rem;
-    border-radius: 0.5rem;
-    display: inline-flex;
-}
-
-.footer_social-link:hover{
-    background-color: var(--title-color-dark);
 }
 
 .footer_copy{
@@ -59,23 +45,4 @@ footer{
 }
 
 
-@media screen and (max-width: 992px) {
-    .footer_social-link{
-        padding: 0.25rem;
-        border-radius: 0.25rem;
-        font-size: 1;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-
-    }
-    
-@media screen and (max-width: 576px) {
-
-    }
-    
-@media screen and (max-width: 350px){
-      
-    }
   

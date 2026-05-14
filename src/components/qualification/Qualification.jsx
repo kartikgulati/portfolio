@@ -18,7 +18,7 @@ const Qualification = () => {
          <h2 className="qualification_section_title">Qualification</h2>
          <span className="section_subtitle">My achievements </span>
 
-         <div className="qulification_container container">
+         <div className="qualification_container container">
             <div className="qualification_tabs">
                 {/* tabs for education and exp */}
                 <div className={toggleState ===1 ? "qualification_button qualification-active button--flex" : "qualification_button  button--flex" }onClick={() => toggleTab(1)}>
