@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
 import "./App.css";
 import { Header } from "./components/header/Header";
 import { Home } from "./components/home/Home";
@@ -84,6 +85,7 @@ function App() {
       </Routes>
       <Footer/>
       <ScrollUp />
+      <Analytics />
     </>
   );
 }
