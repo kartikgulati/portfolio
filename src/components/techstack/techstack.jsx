@@ -108,12 +108,12 @@ const TechStack = () => {
         viewport={{ once: true, amount: 0.45 }}
         transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
       >
-        <Bracket className="techstack_bracket" />
+       
         <div>
-          <h2 className="section_title techstack_title">Tech Stack</h2>
+          <h2 className="techstack_title">Tech Stack</h2>
           <span className="section_subtitle techstack_subtitle">Tools I build with regularly</span>
         </div>
-        <Bracket className="techstack_bracket techstack_bracketMirror" />
+        
       </motion.div>
       <div className="techstack_container container">
         <motion.p

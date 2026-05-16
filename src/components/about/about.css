@@ -53,7 +53,8 @@
 .about_section_title{
     font-weight: bold;
     text-align: center;
-    font-size: clamp(2rem, 4vw, 3rem);
+     font-size: var(--normal-font-size);
+    
     
 
 }
