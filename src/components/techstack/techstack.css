@@ -1,19 +1,23 @@
 .techstack {
-  padding-top: 5rem;
+  padding-top: var(--section-y);
 }
 
 .techstack_container {
   display: grid;
-  gap: 2.5rem;
+  gap: var(--space-6);
 }
 
 .techstack_heading{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-  margin-bottom: 1.25rem;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
   text-align: center;
+}
+
+.techstack_title {
+  margin-bottom: var(--space-2);
 }
 
 .techstack_bracket{
@@ -21,7 +25,6 @@
   height: 1rem;
   color: var(--title-color);
   flex: 0 0 auto;
-  padding-right: 1rem;
 }
 
 .techstack_bracketMirror{
@@ -29,8 +32,8 @@
 }
 
 .techstack_subtitle{
-  margin-top: -1.2rem;
-  margin-bottom: -0.8rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .techstack_intro {
@@ -61,7 +64,8 @@
   justify-content: center;
   gap: 0.85rem;
 
-  min-width: 120px;
+  flex: 1 1 120px;
+  max-width: 150px;
   min-height: 140px;
   padding: 1.4rem 1rem;
 
@@ -91,11 +95,15 @@
   font-weight: 700;
   color: var(--title-color);
   font-family: var(--heading-font);
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
 }
 
 /* 📱 RESPONSIVE */
 @media screen and (max-width: 768px) {
+  .techstack {
+    padding-top: var(--section-y-sm);
+  }
+
   .techstack_heading{
     gap: 0.65rem;
     margin-bottom: 1rem;
@@ -111,7 +119,7 @@
   }
 
   .techstack_card {
-    min-width: 100px;
+    flex-basis: 100px;
     min-height: 120px;
     padding: 1.2rem 0.8rem;
   }
@@ -120,5 +128,10 @@
 @media screen and (max-width: 400px) {
   .techstack_grid {
     gap: 0.75rem;
+  }
+
+  .techstack_card {
+    flex-basis: calc(50% - 0.75rem);
+    max-width: none;
   }
 }

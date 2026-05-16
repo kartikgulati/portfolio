@@ -5,8 +5,7 @@ footer{
 }
 
 .footer_container{
-    padding:2rem 0 6rem;
-    padding-bottom: 2rem;
+    padding: var(--space-6) 0;
     
 }
 .footer_title, .footer_link{
@@ -26,23 +25,29 @@ footer{
 }
 .footer_list{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    column-gap: 1.5rem;
+    gap: var(--space-3) var(--space-5);
     margin-bottom: var(--mb-2);
 }
 .footer_social{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    column-gap: 1.25rem;
+    gap: var(--space-4);
 }
 
 .footer_copy{
     display: block;
-    margin-top :4.5rem;
+    margin-top: var(--space-7);
     text-align: center;
-    margin-top: 4.5rem;
     font-size: var(--smaller-font-size);
 }
 
+@media screen and (max-width: 768px) {
+    .footer_container {
+        padding-bottom: calc(var(--header-height) + var(--space-6));
+    }
+}
 
   

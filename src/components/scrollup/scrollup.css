@@ -1,13 +1,17 @@
 .scrollup{
     position: fixed;
-    right: 2.5rem;
+    right: clamp(1rem, 4vw, 2.5rem);
     bottom: -20%;
     background-color: var(--title-color);
     opacity: 0.8;
     border-radius: 0.4rem;
-    padding: 0.3rem 0.5rem;
+    width: 44px;
+    height: 44px;
     z-index: var(--z-tooltip);
     transition: .4s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .scrollup_icon{
@@ -23,4 +27,10 @@
 .show_scroll{
     bottom: 3rem;
 
+}
+
+@media screen and (max-width: 768px) {
+    .show_scroll {
+        bottom: calc(var(--header-height) + var(--space-4));
+    }
 }

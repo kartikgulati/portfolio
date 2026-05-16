@@ -1,6 +1,6 @@
 .skills_container{
-    grid-template-columns: repeat(3, 350px);
-    column-gap: 3rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--space-5);
     justify-content: center;
 }
 
@@ -8,7 +8,7 @@
     background-color: var(--surface-strong);
     border: 1px solid var(--surface-border);
     border-radius: 1.25rem;
-    padding: 2rem 4rem;
+    padding: var(--space-6);
     box-shadow: var(--shadow-soft);
 }
 
@@ -27,7 +27,7 @@
 .skills_box{
     display: flex;
     justify-content: center;
-    column-gap: 2.5rem;
+    gap: var(--space-5);
 }
 .skills_group{
     display: grid;
@@ -42,7 +42,7 @@
 }
 
 .skills .bx-badge-check{
-    font-size: 1 rem;
+    font-size: 1rem;
     color: var(--title-color);
 }
 
@@ -61,8 +61,8 @@
 
 @media screen and (max-width: 992px) {
     .skills_container{
-        grid-template-columns: max-content;
-        row-gap: 2rem;
+        grid-template-columns: 1fr;
+        max-width: 520px;
     }
 }
     

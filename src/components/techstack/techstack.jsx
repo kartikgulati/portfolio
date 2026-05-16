@@ -100,7 +100,7 @@ const TechStack = () => {
   });
 
   return (
-    <section className="techstack section" id="techstack" ref={sectionRef}>
+    <section className="techstack section" id="skills" ref={sectionRef}>
       <motion.div
         className="techstack_heading"
         initial={{ opacity: 0, y: 24 }}
@@ -110,7 +110,7 @@ const TechStack = () => {
       >
         <Bracket className="techstack_bracket" />
         <div>
-          <h2 className="techstack_heading">Tech Stack</h2>
+          <h2 className="section_title techstack_title">Tech Stack</h2>
           <span className="section_subtitle techstack_subtitle">Tools I build with regularly</span>
         </div>
         <Bracket className="techstack_bracket techstack_bracketMirror" />

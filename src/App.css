@@ -6,7 +6,7 @@
 
 /* variable CSS */
 :root {
-  --header-height:3rem;
+  --header-height: 4.5rem;
 
   /* colors */
  --hue: 210;
@@ -37,6 +37,20 @@
 --smaller-font-size: 0.813rem;
 --tiny-font-size: 0.625rem;
 
+/* spacing */
+--space-1: 0.25rem;
+--space-2: 0.5rem;
+--space-3: 0.75rem;
+--space-4: 1rem;
+--space-5: 1.5rem;
+--space-6: 2rem;
+--space-7: 3rem;
+--space-8: 4rem;
+--container-width: 1120px;
+--container-gutter: clamp(1rem, 4vw, 2rem);
+--section-y: clamp(4.5rem, 8vw, 7rem);
+--section-y-sm: clamp(3rem, 7vw, 5rem);
+
 /* font weight */
 --font-normal: 400;
 --font-medium: 500;
@@ -57,6 +71,7 @@
 --z-tooltip: 10;
 --z-fixed: 100;
 --z-modal: 1000;
+}
 
 /* responsive typo */
 @media screen and (max-width: 992px) {
@@ -68,7 +83,6 @@
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
-}
 }
 }
 /* base */
@@ -86,6 +100,7 @@
 html{
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-height) + 2rem);
+  overflow-x: hidden;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -106,17 +121,18 @@ body{
   background:
     radial-gradient(circle at top left, rgba(245, 159, 83, 0.14), transparent 24%),
     linear-gradient(180deg, #fbfaf6 0%, #f4f1ea 100%);
-  margin-right: 8px;
-  margin-left: 10px;
+  margin: 0;
   color: var(--text-color);
-  letter-spacing: -0.015em;
+  letter-spacing: 0;
+  overflow-x: hidden;
 }
 
 h1,h2,h3{
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   font-family: var(--heading-font);
-  letter-spacing: -0.05em;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 ul{
@@ -130,16 +146,17 @@ a{
 button{
   cursor: pointer;
   border: none;
-   outline: none;
+  outline: none;
 }
 img{
   max-width: 100%;
   height: auto;
+  display: block;
   }
 /* resuable css */
 
 .section{
-  padding: 6rem 0 2rem;
+  padding: var(--section-y) 0;
   position: relative;
 }
 
@@ -148,7 +165,8 @@ font-size: clamp(2rem, 4vw, 3rem);
 color: var(--title-color);
 font-family: var(--heading-font);
 font-weight: 700;
-letter-spacing: -0.06em;
+letter-spacing: 0;
+line-height: 1.1;
 }
 
 .section_subtitle{
@@ -157,7 +175,7 @@ letter-spacing: -0.06em;
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: var(--accent-color);
-  margin-bottom: 3rem;
+  margin-bottom: var(--space-7);
   font-weight: 700;
 }
 
@@ -169,14 +187,15 @@ letter-spacing: -0.06em;
 /* layout */
 
 .container{
-  max-width: 992px;
+  width: min(100% - (var(--container-gutter) * 2), var(--container-width));
+  max-width: var(--container-width);
   margin-left: auto;
   margin-right:  auto;
 }
 
 .grid{
   display:grid;
-  gap: 1.5 rem;
+  gap: var(--space-5);
   
 }
 
@@ -184,15 +203,20 @@ letter-spacing: -0.06em;
 /* buttons */
 
 .button{
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
   background: linear-gradient(135deg, var(--title-color) 0%, #2a3547 100%);
   color:#fff;
-  padding: 1rem 1.6rem;
+  padding: 0.9rem 1.4rem;
   border-radius: 999px;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.14);
   transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .button:hover{
@@ -223,34 +247,45 @@ letter-spacing: -0.06em;
   pointer-events: none;
 }
 
+@media screen and (min-width: 1200px) {
+  :root {
+    --container-width: 1120px;
+  }
+}
+
 /*media queries */
 
 
 @media screen and (max-width: 992px) {
   .button{
-    padding: 1rem 1.75rem;
+    padding: 0.9rem 1.35rem;
   }
 }
   
   /* For medium devices */ 
   @media screen and (max-width: 768px) {
+    :root {
+      --header-height: 3.75rem;
+      --container-gutter: 1.25rem;
+    }
 
     html {
-      scroll-padding-top: 0;
+      scroll-padding-top: var(--space-4);
     }
 
     .section{
-      padding: 4rem 0 3rem;
+      padding: var(--section-y-sm) 0;
+    }
+
+    .section_subtitle {
+      margin-bottom: var(--space-6);
     }
   }
   /* For small devices */
   @media screen and (max-width: 350px){
     :root{
       --big-font-size:2.25rem;
-    }
-    .container{
-      margin-left: var(--mb-1);
-      margin-right: var(--mb-1);
+      --container-gutter: 1rem;
     }
 
   }
